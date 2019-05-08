@@ -20,6 +20,7 @@ namespace TestLINQ
                          select item;
 
             var result2 = colloction.Where(item => item < 5);
+            Console.WriteLine("result2.GetType(): ",result2.GetType());
             var result3 = colloction.Sum();
             
 
